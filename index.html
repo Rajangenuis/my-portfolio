@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="A calm nature-inspired student portfolio showcasing projects, achievements, skills, and personal journey." />
+  <title>Student Portfolio | Nature Vibe</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css?v=2" />
+</head>
+<body>
+  <div class="ambient" aria-hidden="true"></div>
+
+  <header class="site-header">
+    <a class="brand" href="#home">Rajan Kumar</a>
+    <nav class="nav" aria-label="Main navigation">
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#achievements">Achievements</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <button class="sound-toggle" id="soundToggle" type="button" aria-pressed="false">
+      <span class="sound-icon" aria-hidden="true">♪</span>
+      <span>Music</span>
+    </button>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-media" aria-hidden="true"></div>
+      <div class="hero-content">
+        <p class="eyebrow">Student • Creator • Nature Lover</p>
+        <h1>Welcome to my calm digital world.</h1>
+        <p class="hero-copy">
+          Main ek student hoon jo technology, creativity aur peaceful nature vibes ke saath apne projects,
+          achievements aur learning journey ko share karna chahta hoon.
+        </p>
+        <div class="hero-actions">
+          <a class="primary-btn" href="#projects">View Projects</a>
+          <a class="secondary-btn" href="#contact">Connect With Me</a>
+        </div>
+      </div>
+      <div class="hero-portrait" aria-label="Rajan Kumar portrait">
+        <div class="portrait-shine" aria-hidden="true"></div>
+      </div>
+    </section>
+
+    <section class="section about-section" id="about">
+      <div class="section-heading">
+        <p class="eyebrow">About Me</p>
+        <h2>A student building dreams with code and curiosity.</h2>
+      </div>
+      <div class="about-grid">
+        <div>
+          <p>
+            I love learning new skills, creating useful projects, and presenting my work in a way that feels clean,
+            honest, and memorable. This portfolio is my digital identity: projects, certificates, achievements,
+            hobbies, and future goals in one peaceful place.
+          </p>
+        </div>
+        <div class="stats">
+          <div><strong>8+</strong><span>Projects</span></div>
+          <div><strong>5+</strong><span>Certificates</span></div>
+          <div><strong>3</strong><span>Core Skills</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="projects">
+      <div class="section-heading">
+        <p class="eyebrow">Projects</p>
+        <h2>Things I am proud to show.</h2>
+      </div>
+      <div class="project-grid">
+        <article class="project-card">
+          <span class="tag">Web App</span>
+          <h3>College Event Website</h3>
+          <p>A responsive website for college events, schedules, registrations, and announcements.</p>
+          <a href="#">Add project link</a>
+        </article>
+        <article class="project-card">
+          <span class="tag">Python</span>
+          <h3>Student Result Analyzer</h3>
+          <p>A simple tool that helps students understand marks, averages, and performance trends.</p>
+          <a href="#">Add project link</a>
+        </article>
+        <article class="project-card">
+          <span class="tag">Design</span>
+          <h3>Nature Portfolio UI</h3>
+          <p>A peaceful portfolio design focused on storytelling, clean layout, and soft interactions.</p>
+          <a href="#">Add project link</a>
+        </article>
+      </div>
+    </section>
+
+    <section class="section achievements-section" id="achievements">
+      <div class="section-heading">
+        <p class="eyebrow">Achievements</p>
+        <h2>Milestones from my journey.</h2>
+      </div>
+      <div class="timeline">
+        <div class="timeline-item">
+          <span>2026</span>
+          <p>Completed a major college project and presented it successfully.</p>
+        </div>
+        <div class="timeline-item">
+          <span>2025</span>
+          <p>Earned certificates in web development, programming, and communication.</p>
+        </div>
+        <div class="timeline-item">
+          <span>2024</span>
+          <p>Started building digital projects and sharing my learning online.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section contact-section" id="contact">
+      <div class="section-heading">
+        <p class="eyebrow">Contact</p>
+        <h2>Let us build something meaningful.</h2>
+      </div>
+      <div class="contact-panel">
+        <a href="mailto:your.email@example.com">your.email@example.com</a>
+        <a href="https://www.linkedin.com/" target="_blank" rel="noreferrer">LinkedIn</a>
+        <a href="https://github.com/Rajangenuis" target="_blank" rel="noreferrer">GitHub</a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>Made with calm energy by Rajan Kumar.</p>
+  </footer>
+
+  <audio id="ambientAudio" loop preload="none">
+    <source src="assets/origami.mp3" type="audio/mpeg">
+  </audio>
+  <script src="script.js"></script>
+</body>
+</html>
