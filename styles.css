@@ -120,7 +120,7 @@ a {
   background:
     linear-gradient(90deg, rgba(8, 31, 25, 0.9) 0%, rgba(8, 31, 25, 0.68) 48%, rgba(8, 31, 25, 0.44) 100%),
     linear-gradient(180deg, rgba(8, 31, 25, 0.18), rgba(8, 31, 25, 0.8)),
-   url("assets/rajan-photo.png") center 34%/cover;
+   url("rajan-photo.png") center 31%/cover;
   filter: blur(11px) saturate(0.78) brightness(0.58);
   transform: scale(1.08);
   z-index: -2;
@@ -143,7 +143,7 @@ a {
   border-radius: 8px;
   background:
     linear-gradient(180deg, rgba(255, 255, 255, 0.08), rgba(8, 31, 25, 0.28)),
-   url("assets/rajan-photo.png") center 31%/cover;
+   url("rajan-photo.png") center 34%/cover;
   box-shadow: 0 34px 90px rgba(0, 0, 0, 0.36);
 }
 
